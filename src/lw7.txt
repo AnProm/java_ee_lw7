@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT student (subject*,average?)>
+<!ATTLIST student
+lastname CDATA #REQUIRED
+>
+<!ELEMENT subject EMPTY>
+<!ATTLIST subject
+title CDATA #REQUIRED
+mark (1|2|3|4|5) #REQUIRED
+>
+<!ELEMENT average (#PCDATA)>
+
+
+
+
+#######################
+
+
+<student lastname="Seleznev">
+	<subject title="ML" mark="5">
+	<subject title="AI" mark="4">
+	<average>4,5</average>
+</student>
+
+<student lastname="Tetyev">
+	<subject title="ML" mark="5">
+	<average>5</average>
+</student>
+
+<student lastname="Izvoschikov">
+</student>
