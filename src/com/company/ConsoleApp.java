@@ -1,7 +1,6 @@
 package com.company;
 
-public class Main {
-
+public class ConsoleApp {
     public static void main(String[] args) {
 	// write your code here
         if(args.length==2){
