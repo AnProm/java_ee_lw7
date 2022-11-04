@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r>
+    <student lastname="Seleznev">
+        <subject title="ML" mark="5"/>
+        <subject title="AI" mark="4"/>
+        <average> 2.5 </average>
+    </student>
+
+    <student lastname="Tetyev">
+        <subject title="ML" mark="5"/>
+        <average> 3 </average>
+    </student>
+
+    <student lastname="Izvoschikov">
+    </student>
+</r>
